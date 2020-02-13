@@ -72,9 +72,9 @@ def score(slide_one, slide_two):
 
 	return min(a, b, c)
 
-print("reading input from '" + input_filename +"'")
+print("reading input from 'input/" + input_filename +"'")
 
-with open(input_filename) as input_filetext:
+with open('input/' + input_filename) as input_filetext:
 	input_filetext.readline()
 
 	input_slidindex = 0
@@ -103,7 +103,7 @@ with open(input_filename) as input_filetext:
 			# print(input_slide)
 			slides.append(input_slide)
 
-print("done : reading input from '" + input_filename +"'")
+print("done : reading input from 'input/" + input_filename +"'")
 print()
 
 slideshow = []
