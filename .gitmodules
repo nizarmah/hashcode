@@ -1,0 +1,4 @@
+[submodule "attempt_2019"]
+	path = attempt_2019
+	url = git@github.com:nizarmah/hashcode.git
+	branch = attempt_2019
