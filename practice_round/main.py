@@ -65,9 +65,8 @@ def order_pizzas(input_file):
 		file.write(str_ordered_sizes)
 
 if __name__ == '__main__':
-	order_pizzas(sys.argv[1])
 	try:
-		pass
+		order_pizzas(sys.argv[1])
 	except:
 		print('Error : Missing Input File Path')
 		print('Usage : python ', path.basename(__file__), ' file.in')
